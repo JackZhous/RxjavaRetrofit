@@ -1,17 +1,18 @@
 package com.jack.retrofitrxjava2.manger;
 
+import com.google.gson.Gson;
 import com.jack.retrofitrxjava2.api.NetApis;
 import com.jack.retrofitrxjava2.bean.UserBean;
 import com.jack.retrofitrxjava2.exception.ApiException;
 import com.jack.retrofitrxjava2.request.HttpRequest;
 import com.jack.retrofitrxjava2.response.HttpResponse;
+import com.jack.retrofitrxjava2.util.JLog;
 
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 import okhttp3.OkHttpClient;
@@ -24,6 +25,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class HttpManager {
+    private static final String TAG = "j_net";
+
     private static final String BASE_URL = "http://117.139.247.132:6080/box/";
 
     private static final int CINNECT_TIME = 5;
@@ -59,7 +62,9 @@ public class HttpManager {
     }
 
     public void getLogin(Observer<UserBean> observer, HttpRequest request){
-        Observable observable = mNetApis.login(request).map(new HttpResultFunc());
+
+        JLog.i(TAG, new Gson().toJson(request));
+        Observable observable = mNetApis.login(request).map(new HttpResultFunc<HttpResponse<UserBean>>());
 
         toSubscribe(observable, observer);
     }
@@ -81,8 +86,8 @@ public class HttpManager {
     private class HttpResultFunc<T> implements Function<HttpResponse<T>, T> {
 
         @Override
-        public T apply(@NonNull HttpResponse<T> tHttpResponse) throws Exception {
-
+        public T apply(HttpResponse<T> tHttpResponse) throws Exception {
+            JLog.i(TAG, new Gson().toJson(tHttpResponse));
             if(SUCCESS != tHttpResponse.getCode()){
                 throw new ApiException(tHttpResponse.getCode(), tHttpResponse.getMessage());
             }

@@ -8,61 +8,61 @@
         optimize="true"
         revision="25.0.2"
         sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_6e4d0b22e918ac96d710c2b0dc9baa62d3001ae3.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_6e4d0b22e918ac96d710c2b0dc9baa62d3001ae3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jar="/Users/sever1/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.5.1_e9398e7323e82e06638e5dddec6827a7278f12eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_c5ce179a3428ea1d0104de2f93f238301eed3500.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_030b1cbfc81b51679b496cda45a62a357676fdd3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.8/47fadd5ff70f325e520fbc491227bd9283a48f95/rxjava-2.0.8.jar"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="47fadd5ff70f325e520fbc491227bd9283a48f95">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/rxjava-2.0.8_47a30371b97db7d39e676064f75ac9af8ef51a8e.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_6779f277281dc8e0d1d30b3ec833c616ea78edaf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_ce6b582bfe111f255bfe1ef93c06e2ffb7f4d0de.jar" />
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_91de5d04b3c6ad16a12563bb174f1ae302c532ef.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_d7b3cbfa8a3ccacaaa0450b13cf3ec6ed0388aeb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_e7bd078afe2ddf70f40b0feae792dc8dd91cfa1c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/io.reactivex.rxjava2-rxandroid-2.0.1_98aef59da3e987b0a576d0cf9c63970b410c7798.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/io.reactivex.rxjava2-rxandroid-2.0.1_36afbb9c53f595c062987de0b8170f1e82164032.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_edcb54ad927e2aa27dd236b4a561b53f59777e19.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,7 +71,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/okio-1.11.0_36fc319e86285c614e2e4a7a180cbce5f8c448e7.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/okio-1.11.0_36fc319e86285c614e2e4a7a180cbce5f8c448e7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -80,25 +80,43 @@
         optimize="true"
         revision="25.0.2"
         sha1="3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/adapter-rxjava2-2.2.0_6b87c7d62fb588900f0b0c852100c5d16f809d99.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/adapter-rxjava2-2.2.0_6b87c7d62fb588900f0b0c852100c5d16f809d99.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_ba0df5c3281f3e3594fb8fbba8b00a20d769dc42.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_2cc39480e36d1d7e15fbf059f71c68f518f86938.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jar="/Users/sever1/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_e8b65573cf6588cb191b56a169f6006559be6ec4.jar" />
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/rxjava-2.0.1_f8985a2257144b8e19fb23aa0c89b1bdd2d91db5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_f5426f55d595d279e88a6842d00ca36e931ee605.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_7082bc59029894f87904be08b40da10ff2122a6b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -107,16 +125,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="a09926806199499a20b2f5168779499abfa33342">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/converter-gson-2.2.0_ff9e052760ab8698ca01483ba5b0b8d68cb914b4.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/converter-gson-2.2.0_ff9e052760ab8698ca01483ba5b0b8d68cb914b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_f0f3d6ec611965eff83dc3765fd9ce09867c3322.jar" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_d6306503e10bdbd6e2e76736179e0c41e594e9fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_65cd2ddc7ee4926592b9501a17352dfaeada94f1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -125,7 +152,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_f45c0fef144631750fe2fb1a7ee92cab5a0b01b6.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_f45c0fef144631750fe2fb1a7ee92cab5a0b01b6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -134,25 +161,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_2c9eea383d8d0da469d46e6f50cd483b07cc4cb8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_0451bad602e19da235cb1b44a0224e59c0c51916.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_c8dc8e60017c5199df79425b1cb260d9c02c6d14.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_2c9eea383d8d0da469d46e6f50cd483b07cc4cb8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -161,7 +170,16 @@
         optimize="true"
         revision="25.0.2"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/gson-2.7_57f08c04032574b97ce8e80658fd90e42a491336.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/gson-2.7_57f08c04032574b97ce8e80658fd90e42a491336.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.5.1_5ec7643a47b29ae0a1ede476e78b40a685ae82d0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -170,7 +188,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
-        <dex dex="/Users/sever1/Documents/workplace/RetrofitRxJava2/app/build/intermediates/pre-dexed/debug/retrofit-2.2.0_15fade9732cb6c675365b85074059047ea924f0d.jar" />
+        <dex dex="/Users/sever1/Documents/workplace/RxjavaRetrofit/app/build/intermediates/pre-dexed/debug/retrofit-2.2.0_15fade9732cb6c675365b85074059047ea924f0d.jar" />
     </item>
 
 </items>

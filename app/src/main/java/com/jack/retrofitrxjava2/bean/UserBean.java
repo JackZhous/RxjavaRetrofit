@@ -25,7 +25,7 @@ public class UserBean {
     }
 
     class User{
-        String createtime;
+
         String username;
         int id;
         int status;
@@ -34,13 +34,6 @@ public class UserBean {
         String mobile;
 
 
-        public String getCreatetime() {
-            return createtime;
-        }
-
-        public void setCreatetime(String createtime) {
-            this.createtime = createtime;
-        }
 
         public String getUsername() {
             return username;

@@ -17,7 +17,7 @@ import io.reactivex.schedulers.Schedulers;
 public class MainActivity extends AppCompatActivity {
 
     TextView tv;
-    HttpManager manager = HttpManager.Factory.getHttpManager();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickButton(View view){
 
         String param = "jqJJyn3G1T8o+GzKfuicOQ";
+        HttpManager manager = HttpManager.Factory.getHttpManager();
         manager.getTaskList(param)
                 .subscribeOn(Schedulers.io())
                 .unsubscribeOn(Schedulers.io())

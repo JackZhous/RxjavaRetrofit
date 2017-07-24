@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onError(Throwable e) {
+                        e.printStackTrace();
                         tv.setText("error");
                     }
 

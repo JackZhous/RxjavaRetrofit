@@ -5,7 +5,6 @@ import com.jack.retrofitrxjava2.response.TaskListResponse;
 import com.jackzhous.netlibrary.NetClient;
 
 import io.reactivex.Observable;
-import io.reactivex.Observer;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
@@ -26,19 +25,10 @@ public interface HttpManager {
     final class Factory{
 
         public static HttpManager getHttpManager(){
-            NetClient client = new NetClient(){
-                @Override
-                public String getCookies() {
-                    return COOKIE;
-                }
-
-                @Override
-                public String getBaseUrl() {
-                    return BASE_URL;
-                }
-            };
+            NetClient client = new NetClient(BASE_URL);
 
             HttpManager manager = client.getNetClient(HttpManager.class);
+            client.addHeader("Cookie", COOKIE);
             return  manager;
         }
     }

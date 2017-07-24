@@ -2,9 +2,13 @@ package com.jackzhous.netlibrary;
 
 import android.text.TextUtils;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -14,17 +18,23 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by jackzhous on 2017/7/20.
  */
 
-public abstract class NetClient {
+public class NetClient {
 
 
     private static final int CINNECT_TIME = 5;
 
+    private static OkHttpClient.Builder okBuilder  = new OkHttpClient.Builder()
+            .connectTimeout(CINNECT_TIME, TimeUnit.SECONDS);;
 
+    private String baseUrl;
 
-    public abstract String getCookies();
+    public NetClient(String baseUrl){
+        if(TextUtils.isEmpty(baseUrl)){
+            throw new RuntimeException("retrofit need a base url");
+        }
 
-
-    public abstract String getBaseUrl();
+        this.baseUrl = baseUrl;
+    }
 
 
     /**
@@ -33,41 +43,46 @@ public abstract class NetClient {
      */
     public <T>T getNetClient(Class<T> tClass){
 
-        OkHttpClient.Builder okBuilder = new OkHttpClient.Builder()
-                .connectTimeout(CINNECT_TIME, TimeUnit.SECONDS);
-
-        String baseurl = getBaseUrl();
-        if(TextUtils.isEmpty(baseurl)){
-            throw new RuntimeException("retrofit need a base url");
-        }
-
-        AddCookie addCookie = addCookie();
-        if(addCookie != null){
-            okBuilder.addInterceptor(addCookie);
-        }
 
         Retrofit Retrofit = new Retrofit.Builder().client(okBuilder.build())
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl(baseurl)
+                .baseUrl(baseUrl)
                 .build();
 
         T t = Retrofit.create(tClass);
         return  t;
     }
 
-    /**
-     * 添加cokkie
-     */
-    private AddCookie addCookie(){
-        String cookie = getCookies();
-        if(TextUtils.isEmpty(cookie)){
-            return null;
-        }
 
-        AddCookie addCookie = new AddCookie(cookie);
+    public static void addHeader(final String key, final String value){
 
-        return addCookie;
+        okBuilder.addInterceptor(new Interceptor() {
+            @Override
+            public Response intercept(Chain chain) throws IOException {
+                Request original = chain.request();
+                Request.Builder requestBuilder = original.newBuilder()
+                        .header(key, value);
+                Request request = requestBuilder.build();
+                return chain.proceed(request);
+
+            }
+        });
+    }
+
+
+    public static void removeHeader(final String key){
+        okBuilder.addInterceptor(new Interceptor() {
+            @Override
+            public Response intercept(Chain chain) throws IOException {
+                Request original = chain.request();
+                Request.Builder requestBuilder = original.newBuilder()
+                        .removeHeader(key);
+                Request request = requestBuilder.build();
+                return chain.proceed(request);
+
+            }
+        });
     }
 
 }

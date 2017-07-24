@@ -23,7 +23,7 @@ public class NetClient {
 
     private static final int CINNECT_TIME = 5;
 
-    private static OkHttpClient.Builder okBuilder  = new OkHttpClient.Builder()
+    private  OkHttpClient.Builder okBuilder  = new OkHttpClient.Builder()
             .connectTimeout(CINNECT_TIME, TimeUnit.SECONDS);;
 
     private String baseUrl;
@@ -55,7 +55,7 @@ public class NetClient {
     }
 
 
-    public static void addHeader(final String key, final String value){
+    public  void addHeader(final String key, final String value){
 
         okBuilder.addInterceptor(new Interceptor() {
             @Override
@@ -71,7 +71,7 @@ public class NetClient {
     }
 
 
-    public static void removeHeader(final String key){
+    public  void removeHeader(final String key){
         okBuilder.addInterceptor(new Interceptor() {
             @Override
             public Response intercept(Chain chain) throws IOException {

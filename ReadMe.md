@@ -3,7 +3,7 @@
 
 # Rxjava2 Retrofit2 1.1版本 组成的网络框架和示范demo（可直接使用）
 
-1.0版本请点击[这里](ReadMe.1.0.md)
+1.0版本请点击[这里][1]
 
 ## app模块是demo
 
@@ -87,3 +87,5 @@ public interface HttpManager {
                 });
 ```
 至此，完成；
+
+[1]:https://github.com/JackZhous/RxjavaRetrofit/blob/master/ReadMe1.0.md

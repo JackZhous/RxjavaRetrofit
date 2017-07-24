@@ -1,6 +1,5 @@
 [![](https://www.jitpack.io/v/JackZhous/RxjavaRetrofit.svg)](https://www.jitpack.io/#JackZhous/RxjavaRetrofit)
 
-
 # Rxjava2 Retrofit2 1.1版本 组成的网络框架和示范demo（可直接使用）
 
 1.0版本请点击[这里][1]
@@ -24,7 +23,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	        compile 'com.github.JackZhous:RxjavaRetrofit:1.1'
+	        compile 'com.github.JackZhous:RxjavaRetrofit:1.2'
 	}
 ```
 
